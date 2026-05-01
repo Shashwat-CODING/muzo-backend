@@ -7,7 +7,7 @@ zerops:
         - docker image pull ghcr.io/shashwat-coding/effective-palm-tree:main@sha256:93c025017d562f4e10390a94b733033909b97ba991c5c27bddbdf5d23a0833db
       # start docker, --network=host needed
       start: docker run --network=host ghcr.io/shashwat-coding/effective-palm-tree:main@sha256:93c025017d562f4e10390a94b733033909b97ba991c5c27bddbdf5d23a0833db
-      # what ports docker exposes
+      # what ports docker exposess
       # and whether it supports http traffic
       ports:
         - port: 7860
